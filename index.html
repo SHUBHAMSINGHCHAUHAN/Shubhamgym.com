@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Fitness Center</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset*/
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('background.jpg');
+
+    }
+    .mid{
+        font-family: 'Baloo Bhai', cursive;
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        /*border: 1px solid blue*/
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 23px;
+        display: inline-block;
+        /*border: 1px solid green;*/
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: yellow;
+    }
+    .btn{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: grey;
+        color: white;
+        padding: 1px 8px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(31, 30, 30);
+    }
+    .container{
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;;
+        /*border: 2px solid white;*/
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align:  center;
+        display: block;
+        width: 400px;
+        padding: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 23%;
+    }
+</style>
+<body>
+        <!--mid box for navigation bar-->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+               
+
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of punjab</h1>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter Your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
